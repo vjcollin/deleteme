@@ -1,0 +1,60 @@
+   <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewpoint"  content="width=device-width, initial-scale=1.0" />
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            #container{
+                width: 80%;
+                margin: 0 auto;
+		max-width: 960px;
+		min-width: 360px;
+            }
+	    #mbox{
+		overflow: auto;
+	    }
+            .hf{
+                background-color: navy;
+                color: gold;
+                width: 100%;
+             }
+	     header{
+		 padding: 20px;
+		 margin: 0 auto;
+		 text-align: center;
+	     }
+             #n{
+                float: left;
+                width: 20%;
+                color: navy;
+             }
+             #m{
+                float: left;
+                width: 80%;
+                color: navy;
+                padding-left: 30px;
+             }
+	     footer{
+		padding: 5px;
+	     }
+             @media screen and (max-width: 600px){
+                 #container, .hf, #mbox, #n, #m {
+                 width: 100%;
+                 margin: 0 auto;
+             }
+             #n ul{
+                width: 100%;
+                display: block;
+                list-style-type: none;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0;
+             }
+             #n li{
+                border: 2px solid navy;
+                background-color: gold;
+             }
+        </style>
+    </head>
